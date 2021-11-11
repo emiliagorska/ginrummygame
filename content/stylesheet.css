@@ -1,0 +1,152 @@
+/* general styling rules */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#header_info {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#nameSection {
+    font-size: 28px;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    background-color: darkslategray;
+    padding: 15px 15px 15px 15px;
+}
+
+h2 {
+    font-size: 28px;
+    color: darkslategrey;
+}
+
+/*start buttons*/
+#startbuttons {
+    display: block;
+}
+
+#startbuttons button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 3px solid darkred;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    background: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+#startbuttons button:hover {
+    background-color:darkred;
+    color: white;
+}
+
+#currentGamesList {
+    display: block;
+}
+
+section > button {
+    display: block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 3px solid lightgray;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+    background: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+section > button:hover {
+    background-color:lightgray;
+    color: white;
+}
+
+/*playing cards*/
+.card {
+    object-fit: cover;
+    font-size: 120px;
+    background-color: white;
+}
+
+div[dataset_colour = "red"] {
+    color: rgb(216, 11, 11);
+}
+
+#upcardAndPile {
+    display: block;
+    background-color: white;
+}
+
+#upcard {
+    font-size: 120px;
+    /* width: 100px;
+    height: 150px; */
+    background-color: white;
+    display: inline-block;
+}
+
+#cardPile {
+    font-size: 120px;
+    justify-content: center;
+    width: 80px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+}
+
+#playerHand {
+    width: 100%;
+    display: block;
+}
+
+section > div {
+    display: inline-block;
+}
+
+section > div > div {
+    display: inline-block;
+}
+
+/* declare gin and melds */
+#declareGin {
+    display: block;
+}
+
+#declareGin button {
+    display: block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 3px solid darkred;
+    text-align: center;
+    font-size: 12px;
+    background: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+#declareGin button:hover {
+    background-color: darkred;
+    color: white;
+}
+
+#meld1, #meld2, #meld3 {
+    display: block;
+    margin-bottom: 15px;
+    width: 400px;
+    height: 150px;
+    border: 3px solid darkred;
+}

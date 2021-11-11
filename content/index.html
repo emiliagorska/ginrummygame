@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>CCS5003 P2 group 5</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <script src="client.js"></script>
+    <link rel ="stylesheet" href = "stylesheet.css" />
+</head>
+<body>
+<h1 id="header">Gin Rummy</h1>
+<div id = "header_info">
+    <div id="nameSection">
+        <p>Enter your name here: </p>
+        <input name="nameField" id="name" type="text"/>
+        <button onclick="enterName()">>></button>
+    </div>
+</div>
+
+<div id="startbuttons">
+    <button id="startGame" onclick="createGameID()">Create Game</button>
+    <button id="refreshList" onclick="loadCurrentGames()">Refresh list</button>
+</div>
+<br><br>
+<section id="currentGamesList"></section>
+<br><br>
+<div id="upcardAndPile">
+    <div id="cardPile"></div>
+    <div id="upcard"></div>
+</div>
+<hr>
+<p id="turn-alert"></p>
+<section id="playerHand"></section>
+<section id="declareGin"></section>
+</body>
+</html>
